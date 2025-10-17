@@ -26,8 +26,8 @@ On this page, we show posters that were submitted by members and students of the
     author="Sebastian Wewer"
     description="An agent-oriented framework for the simulation of ant colonies."
     semesterYear="ss2025"
-    pathPdf='/img/student-work/posters/fischer_fw2_poster.pdf'
-    pathImage='/img/student-work/posters/fischer_fw2_poster.png'
+    pathPdf='/img/student-work/posters/wewer_fw2_poster.pdf'
+    pathImage='/img/student-work/posters/wewer_fw2_poster.png'
   />
 </div>
 
