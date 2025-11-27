@@ -14,6 +14,16 @@ On this page, we list theses that were submitted by members and students of the 
 ### 2025
 
 <StudentWork
+  title="Entwicklung eines adaptiven Optimierungsverfahrens auf Basis von Large Language-Modellen und evolutionären Algorithmen für Timetabling-Aufgaben"
+  author="Bjarne Martensen"
+  type="ma"
+  description="CThis master's thesis developed and investigated a hybrid optimization method that combines large language models (LLMs) with evolutionary algorithms to adaptively solve complex timetabling problems such as school, train, and machine scheduling. The evaluation of four implementations showed that pure prompting approaches are unsuitable, while the evolutionary algorithm with targeted LLM integration (LLM-generated operators) produced significantly better and valid solutions in most scenarios. The results prove that LLMs cannot replace optimization methods, but offer substantial added value in hybrid structures by increasing the adaptive generation of heuristics and the flexibility of planning systems."
+  semesterYear="ws2025"
+  pathPdf="/img/student-work/theses/martensen_ms_thesis.pdf"
+/>
+
+
+<StudentWork
   title="AI-driven validation of citizen science data: Anomaly Detection of Bird Sightings with Machine Learning Models and Statistical Approaches"
   author="Simon Birker"
   type="ma"
@@ -92,6 +102,15 @@ On this page, we list theses that were submitted by members and students of the 
 -->
 
 ### 2025
+
+<StudentWork
+  title="Entwicklung einer Experimentierplattform für den Vergleich verschiedener sozialer Agentenmodelle am Beispiel von Hamburger Weihnachtsmärkten"
+  author="René Scheuer"
+  type="ba"
+  description="This bachelor’s thesis presents the development of an experimental MARS-based platform for simulating the movements of human agents at a Christmas market in Hamburg.  The purpose is to facilitate the comparison of different models in the field of pedestrian dynamics."
+  semesterYear="ws2025"
+  pathPdf="/img/student-work/theses/scheuer_ba_thesis.pdf"
+/>
 
 <StudentWork
   title="Extension of a Data Hub for Epidemiological Data with a Data Coverage and Analysis Component"
