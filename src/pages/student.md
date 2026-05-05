@@ -8,7 +8,7 @@ hide_table_of_contents: false
 
 Die MARS Group forscht aktuell an einer ganzen Reihen von Themen, die auch für Studierende, die eine Bachelor- oder Masterarbeit bei uns schreiben wollen, relevant sind. Dazu gehören u.a. die folgenden Oberthemen:
 
-- Multi-Agenten Systeme
+- Multi-Agenten Systeme und agentische Teams
 	- Kooperation in Multi-Agenten Systemen
 	- Multi-Agenten (Deep) Reinforcement Learning (MA(D)RL)
 - Agentic AI
@@ -32,7 +32,19 @@ Auch wenn einige unserer Forschungsarbeiten Grundlagencharakter besitzen, so ste
 Im Folgenden findet sich eine - unvollständige - Liste von möglichen (Anschluss-)Themen. Sollte eines oder mehrere Themenbereich für Sie interessant sein, kontaktieren Sie mich bitte direkt unter [Prof. Dr. Thomas Clemen](mailto:thomas.clemen@haw-hamburg.de).
 Auf Grund unserer engen Zusammenarbeit mit der [Logistik-Initiative Hamburg](https://www.hamburg-logistik.net/) und der [Carleton University in Ottawa, Kanada](https://carleton.ca/) haben Studierende auch die Möglichkeit, von ausgewählten Kolleginnen und Kollegen dieser Institutionen co-betreut zu werden. Melden Sie sich, wenn diese Option für Sie von Interesse sein könnte.
 
-## Agentic AI
+## Multi-Agenten Systeme und agentische Teams
+* Agent Coding Teams für (z.B. mit [MetaGPT](https://github.com/FoundationAgents/MetaGPT))
+	* die Pflege, Dokumentation und Erweiterung des MARS Frameworks [MARS Framework](https://github.com/MARS-Group-HAW)
+	* die Erstellung und Pflege von Agenten-basierten Simulationsmodellen auf Basis des MARS Frameworks.
+* Ist das CTDE-Paradigma (*Centralized Training, Decentralized Execution*) ein möglicher Weg, um große Agenten-basierte Simulationsmodelle performanter zu machen?
+* Nutzung der HAW ICC zur Performance-Optimierung von sehr großen MARS Simulationsmodellen
+* Kommunikation und Kooperation von MARS Agenten
+* Unter welchen Bedingungen konvergiert MARL zu einem Nash-Gleichgewicht – und wenn ja, zu welchem?
+* Lässt sich eine in einer Simulation trainierte Multi-Agenten-Strategie auf neue Teamzusammensetzungen oder Umgebungen übertragen?
+* Können Agenten für Menschen verständliche Kommunikationsprotokolle erlernen – und ist diese Verständlichkeit überhaupt notwendig?
+* Selbst-replizierende, evolutionäre Agenten, z.B. Erweiterung des Action Spaces durch Evolution
+
+<!--## Agentic AI
 - Vergleich und ggf. Erweiterung unterschiedlicher Frameworks zur Agentic AI	- [AutoGen](https://github.com/microsoft/autogen)
 	- [LangChain](https://github.com/langchain-ai/langchain) 
 	- [CrewAI](https://github.com/crewAIInc/crewAI)
@@ -50,7 +62,7 @@ Auf Grund unserer engen Zusammenarbeit mit der [Logistik-Initiative Hamburg](htt
 - [TinyTroupe](https://microsoft.github.io/TinyTroupe/)
 - Kopplung von MARS LLM-Agenten mit Goal-oriented Action Planning ([GOAP](https://arnauld-alex.com/using-goap-for-advanced-gaming-ai-techniques))
 - Selbst-replizierende, evolutionäre Agenten
-
+-->
 ## LLMs
 - Grundlagen von Large-Language Models – Eigenentwicklung eines LLMs  (vgl. [Sebastian Raschka](https://github.com/rasbt))
 - Was denkt mein LLM? Persönlichkeitstests für große Sprachmodelle- Erarbeitung einer Empfehlung für die Etablierung von lokalen LLMs in Firmen und Behörden
@@ -74,11 +86,11 @@ Auf Grund unserer engen Zusammenarbeit mit der [Logistik-Initiative Hamburg](htt
 - Spieleprogrammierung mit MARS  
 - Teams von LLM-Agenten spielen Fußball
 
-## Multi-Agenten Systeme (MAS)
+<!--## Multi-Agenten Systeme (MAS)
 - Multi-agent collaboration
 - Dynamic task decomposition 
 - Benchmarking cooperative multi-agent reinforcement learning ([StarCraft Multi-Agent Challenge](https://github.com/oxwhirl/smac))
-
+-->
 # Topics for Bachelor's and Master's theses, as well as semester projects
 
 The MARS Group is currently researching a whole range of topics that are also relevant for students who want to write a Bachelor's or Master's thesis with us. These include the following main topics:
@@ -107,7 +119,20 @@ Even though some of our research work is of a fundamental nature, the focus is u
 The following is an - incomplete - list of possible (follow-up) topics. If one or more topics are of interest to you, please contact me directly at [Prof. Dr. Thomas Clemen](mailto:thomas.clemen@haw-hamburg.de).
 Due to our close cooperation with the [Logistics Initiative Hamburg](https://www.hamburg-logistik.net/) and [Carleton University in Ottawa, Canada](https://carleton.ca/), students also have the opportunity to be co-supervised by selected colleagues from these institutions. Get in touch if this option might be of interest to you.
 
-## Agentic AI
+## Multi-Agent Systems and Agent Teams
+* Agent Coding Teams (e.g., using [MetaGPT](https://github.com/FoundationAgents/MetaGPT))
+    * Maintenance, documentation, and expansion of the MARS Framework [MARS Framework](https://github.com/MARS-Group-HAW)
+	* the creation and maintenance of agent-based simulation models based on the MARS Framework.
+* Is the CTDE paradigm (*Centralized Training, Decentralized Execution*) a viable approach to improving the performance of large agent-based simulation models?
+* Utilizing the HAW ICC for performance optimization of very large MARS simulation models
+* Communication and cooperation among MARS agents
+* Under what conditions does MARL converge to a Nash equilibrium—and if so, to which one?
+* Can a multi-agent strategy trained in a simulation be transferred to new team compositions or environments?
+* Can agents learn communication protocols that humans can understand—and is this comprehensibility even necessary?
+* Self-replicating, evolutionary agents, e.g., expansion of the action space through evolution
+
+
+<!--## Agentic AI
 - Comparison and possible extension of different frameworks for Agentic AI	- AutoGen](https://github.com/microsoft/autogen)
 	- LangChain](https://github.com/langchain-ai/langchain)
 	- CrewAI](https://github.com/crewAIInc/crewAI)
@@ -126,7 +151,7 @@ Due to our close cooperation with the [Logistics Initiative Hamburg](https://www
 - [TinyTroupe](https://microsoft.github.io/TinyTroupe/)
 - Coupling of MARS LLM agents with Goal-oriented Action Planning ([GOAP](https://arnauld-alex.com/using-goap-for-advanced-gaming-ai-techniques))
 - Self-replicating, evolutionary agents
-
+-->
 ## LLMs
 - Basics of Large-Language Models - self-development of an LLM (see [Sebastian Raschka](https://github.com/rasbt))
 - What does my LLM think? Personality tests for large language models- Development of a recommendation for the establishment of local LLMs in companies and authorities
@@ -150,10 +175,10 @@ Due to our close cooperation with the [Logistics Initiative Hamburg](https://www
 - Game programming with MARS
 - Teams of LLM agents play soccer
 
-## Multi-agent systems (MAS)
+<!--## Multi-agent systems (MAS)
 - Multi-agent collaboration
 - Dynamic task decomposition
 - Benchmarking cooperative multi-agent reinforcement learning ([StarCraft Multi-Agent Challenge](https://github.com/oxwhirl/smac))
-
+-->
 
 
