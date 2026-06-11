@@ -44,8 +44,8 @@ Here is an example:
    ```json
    {
      "globals": {
-       "startPoint": "2020-01-01T00:00:00",
-       "endPoint": "2020-01-01T01:00:00",
+       "startTime": "2020-01-01T00:00:00",
+       "endTime": "2020-01-01T01:00:00",
        "deltaT": 1,
        "deltaTUnit": "seconds",
    	"console": true,
@@ -57,9 +57,9 @@ Here is an example:
      }
   }
    ```
-  `startPoint`: the start time of the simulation
+  `startTime`: the start time of the simulation
 
-   `endPoint`: the end time of the simulation
+   `endTime`: the end time of the simulation
 
    `deltaT`: the length of a single time step
 

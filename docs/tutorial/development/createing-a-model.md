@@ -87,14 +87,14 @@ var config = CreateDefaultConfig();
 ```csharp
 private static SimulationConfig CreateDefaultConfig()
 {
-    var startPoint = DateTime.Parse("2020-01-01T00:00:00");
+    var startTime = DateTime.Parse("2020-01-01T00:00:00");
     var config = new SimulationConfig
     {
         SimulationIdentifier = "green4bikes",
         Globals =
         {
-            StartPoint = startPoint,
-            EndPoint = startPoint + TimeSpan.FromHours(24),
+            startTime = startTime,
+            endTime = startTime + TimeSpan.FromHours(24),
             DeltaTUnit = TimeSpanUnit.Seconds,
             ShowConsoleProgress = true,
             OutputTarget = OutputTargetType.Csv,
@@ -109,8 +109,8 @@ private static SimulationConfig CreateDefaultConfig()
 
 |Parameter|Description|Example|
 |------|------|---|
-|`StartPoint`|the start time of the simulation|01.01.2020|
-|`EndPoint`|the end time of the simulation|31.01.2020|
+|`startTime`|the start time of the simulation|01.01.2020|
+|`endTime`|the end time of the simulation|31.01.2020|
 |`DeltaTUnit`|the unit of a single time step|`TimeSpanUnit.Seconds`|
 |`ShowConsoleProgress`|if `true`, the simulation progress is displayed in the terminal|`true` or `false`|
 |`OutputTarget`|the medium into which simulation output data is stored (set to csv in the above example)|`csv`|
@@ -131,8 +131,8 @@ In order to define a simulation configuration that exist outside of the model, a
    ```
    {
      "globals": {
-       "startPoint": "2020-01-01T00:00:00",
-       "endPoint": "2020-01-01T01:00:00",
+       "startTime": "2020-01-01T00:00:00",
+       "endTime": "2020-01-01T01:00:00",
        "deltaT": 1,
        "deltaTUnit": "seconds",
    	"console": true,
@@ -141,8 +141,8 @@ In order to define a simulation configuration that exist outside of the model, a
      },
    ```
 
-* `startPoint`: the start time of the simulation
-* `endPoint`: the end time of the simulation
+* `startTime`: the start time of the simulation
+* `endTime`: the end time of the simulation
 * `deltaT`: the length of a single time step
 * `deltaTUnit`: the unit of a single time step
 * `console`: if `true`, the simulation progress is displayed in the terminal
@@ -157,6 +157,8 @@ For more information on agent configuration, please click [here](../configuratio
 ___
 
 ## Build the application and run the simulation
+
+**TODO This needs to be updated, as `SimulationStarter.BuildApplication(desc,cfg)` → `Resolve<ISimulation>()` → `StartSimulation()` → `Dispose()` is deprecated and should be replaced by `SimulationStarter.Start(desc,cfg)` → `Run()` → `Dispose()`**   
 
 Now that a ModelDescription and a configuration (a SimulationConfig (Part2a) or an external JSON file (Part2b)) of the model exists, an `ISimulationContainer` object (let's call it `application`) can be created. `application` receives `description` and the simulation configuration of your choice in order to execute the simulation.
 
