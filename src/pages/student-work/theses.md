@@ -11,6 +11,18 @@ On this page, we list theses that were submitted by members and students of the 
 
 ## Master
 
+### 2026
+
+<StudentWork
+  title="Multi-Agent Deep Reinforcement Learning for Efficient Aerial WildfireFighting"
+  author="Leonard Bardtke"
+  type="ma"
+  description="Aerial wildfire suppression requires coordinated, adaptive decision-making under rapidly evolving conditions. This thesis investigates the application of Multi-Agent Deep Reinforcement Learning (MARL) to an operationally grounded agent-based wildfire simulation. It focuses on the systematic integration and interpretability of learned strategies. A staged complexity framework is introduced to enable step-by-step integration and validation, and the Dual Decomposition Framework (DDF) is developedto modularize reward and observation components and analyze their individual contributions to the learned policy."
+  semesterYear="ss2026"
+  pathPdf="/img/student-work/theses/bardtke_ms_thesis.pdf"
+/>
+
+
 ### 2025
 
 <StudentWork
