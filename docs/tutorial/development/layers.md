@@ -214,7 +214,7 @@ The `explore` is used to query all raster cells that are within a `radius` and m
 MyRasterLayer MyRaster { get; set; }
 ...
 var source = Position.CreatePosition(30,40);
-var result MyRaster.Explore(source, 10, 5);
+var result = MyRaster.Explore(source, 10, 5);
 ```
 
 The call `Explore(source, 10, 5)` returns a sequence of the first `5` cells with their values that are within the `radius` of 10 steps starting from coordinate `(30,40)`.
@@ -231,10 +231,10 @@ A fourth argument can be used to _optionally_ define a selection predicate to se
 MyRasterLayer MyRaster { get; set; }
 //...
 var source = Position.CreatePosition(30,40);
-var result MyRaster.Explore(source, 10, -1, cell => cell > 10);
+var result = MyRaster.Explore(source, 10, -1, cell => cell > 10);
 ```
 
-The call `Explore(source, 10, 5, cell => cell > 10)` queries for all cells (`-1`) in the radius of `10` whose cell value is greater than `10`.
+The call `Explore(source, 10, -1, cell => cell > 10)` queries for all cells (`-1`) in the radius of `10` whose cell value is greater than `10`.
 
 ### Vector Layer
 
