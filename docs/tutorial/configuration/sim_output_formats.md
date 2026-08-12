@@ -29,10 +29,7 @@ By default MARS supports the output in CSV and TSC format. For each type an indi
 	"globals": {
 		"output": "csv",
 		"csvOptions": {
-			"delimiter": "127.0.0.1",
-			"port": 5432,  
-			"user": "postgres",
-			"password": "mypassword"
+			"delimiter": ","
 		}
 	}
 }
@@ -45,7 +42,7 @@ The CSV output can be configured with user-defined delimiter and output formats.
 
 Simulation results can be stored in a relational database and queried via SQL. MARS creates and manages ad-hoc database schemas and adds new data to this schema. For analysis via SQL some examples are described [here](../analysis/visualizing_sim_results.md). 
 
-Data is created according to the Table per Class Hierachy principle. Concrete types of which instances can be created have a representation as table and columns store the value properties. No ``1:n``, ``n:m`` relationships are managed.
+Data is created according to the Table per Class Hierarchy principle. Concrete types of which instances can be created have a representation as table and columns store the value properties. No ``1:n``, ``n:m`` relationships are managed.
 
 MARS currently supports PostgreSQL and SQLite.
 
